@@ -1,0 +1,149 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #282c34; /* Dark background color */
+  color: #fff; /* Text color */
+}
+
+h1 {
+  text-align: center;
+  color: #3498db; /* Accent color for headings */
+}
+
+form {
+  width: 300px;
+  background-color: #333; /* Dark form background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for a subtle lift */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="textarea"]
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #444; /* Dark input background color */
+  color: #fff; /* Text color for inputs */
+  border: 1px solid #555; /* Dark border color */
+}
+
+input[type="submit"] {
+  background-color: #e74c3c; /* Accent color for submit button */
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #c0392b; /* Darker accent color on hover */
+}
+
+span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #3498db; /* Accent color for labels */
+}
+
+textarea {
+  width: 50px;
+  min-height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #444; /* Dark textarea background color */
+  color: #fff; /* Text color for textarea */
+  border: 1px solid #555; /* Dark border color */
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #444; /* Dark select background color */
+  color: #fff; /* Text color for select */
+  border: 1px solid #555; /* Dark border color */
+}
+
+#f {
+  display: flex;
+  justify-content: center;
+
+}
+
+/* Optional: Style for error messages */
+span[style="color: red;"] {
+  font-size: 12px;
+  color: #e74c3c; /* Error message color */
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #555; /* Dark border color */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+td div, th div {
+  max-height: 300px;
+  overflow: auto;
+}
+
+th {
+  background-color: #444; /* Dark header background color */
+  color: #fff; /* Light text color for header */
+}
+
+tr:nth-child(even) {
+  background-color: #333; /* Dark background color for even rows */
+  color: #fff; /* Light text color for even rows */
+}
+
+tr:nth-child(odd) {
+  background-color: #222; /* Dark background color for odd rows */
+  color: #fff; /* Light text color for odd rows */
+}
+
+tr:hover {
+  background-color: #555; /* Darker background color on hover */
+}
+
+#logout-link {
+  display: inline-block;
+  padding: 10px;
+  background-color: #dc3545; /* Bootstrap danger color */
+  color: #fff; /* White text */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#logout-link:hover {
+  background-color: #bd2130; /* Darker red on hover */
+}
+
